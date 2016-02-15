@@ -14,6 +14,17 @@
 		5BD4BE8A1C71951A005DDA23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4BE881C71951A005DDA23 /* LaunchScreen.storyboard */; };
 		5BD4BE951C71951A005DDA23 /* MyAppTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4BE941C71951A005DDA23 /* MyAppTestTests.swift */; };
 		5BD4BEA01C71951A005DDA23 /* MyAppTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4BE9F1C71951A005DDA23 /* MyAppTestUITests.swift */; };
+		5BD4BEDD1C7199B4005DDA23 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4BED21C7199B4005DDA23 /* AFHTTPSessionManager.m */; };
+		5BD4BEDE1C7199B4005DDA23 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4BED41C7199B4005DDA23 /* AFNetworkReachabilityManager.m */; };
+		5BD4BEDF1C7199B4005DDA23 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4BED61C7199B4005DDA23 /* AFSecurityPolicy.m */; };
+		5BD4BEE01C7199B4005DDA23 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4BED81C7199B4005DDA23 /* AFURLRequestSerialization.m */; };
+		5BD4BEE11C7199B4005DDA23 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4BEDA1C7199B4005DDA23 /* AFURLResponseSerialization.m */; };
+		5BD4BEE21C7199B4005DDA23 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4BEDC1C7199B4005DDA23 /* AFURLSessionManager.m */; };
+		5BE2CA931C71AB94007D9841 /* MyHTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2CA921C71AB94007D9841 /* MyHTTPManager.swift */; };
+		5BE2CA951C71DAA9007D9841 /* MyCookcate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2CA941C71DAA9007D9841 /* MyCookcate.swift */; };
+		5BE2CA9C1C71E9F0007D9841 /* MySecondCookcateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2CA9B1C71E9F0007D9841 /* MySecondCookcateViewController.swift */; };
+		5BE2CA9E1C71EE91007D9841 /* MyCookBookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2CA9D1C71EE91007D9841 /* MyCookBookListViewController.swift */; };
+		5BE2CAA01C71F1A4007D9841 /* MyCookBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2CA9F1C71F1A4007D9841 /* MyCookBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,24 @@
 		5BD4BE9B1C71951A005DDA23 /* MyAppTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD4BE9F1C71951A005DDA23 /* MyAppTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppTestUITests.swift; sourceTree = "<group>"; };
 		5BD4BEA11C71951A005DDA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD4BECC1C719982005DDA23 /* MyAppTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAppTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		5BD4BED11C7199B4005DDA23 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		5BD4BED21C7199B4005DDA23 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		5BD4BED31C7199B4005DDA23 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		5BD4BED41C7199B4005DDA23 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		5BD4BED51C7199B4005DDA23 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		5BD4BED61C7199B4005DDA23 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		5BD4BED71C7199B4005DDA23 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		5BD4BED81C7199B4005DDA23 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		5BD4BED91C7199B4005DDA23 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		5BD4BEDA1C7199B4005DDA23 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		5BD4BEDB1C7199B4005DDA23 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		5BD4BEDC1C7199B4005DDA23 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		5BE2CA921C71AB94007D9841 /* MyHTTPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHTTPManager.swift; sourceTree = "<group>"; };
+		5BE2CA941C71DAA9007D9841 /* MyCookcate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCookcate.swift; sourceTree = "<group>"; };
+		5BE2CA9B1C71E9F0007D9841 /* MySecondCookcateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySecondCookcateViewController.swift; sourceTree = "<group>"; };
+		5BE2CA9D1C71EE91007D9841 /* MyCookBookListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCookBookListViewController.swift; sourceTree = "<group>"; };
+		5BE2CA9F1C71F1A4007D9841 /* MyCookBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCookBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +126,15 @@
 		5BD4BE7E1C71951A005DDA23 /* MyAppTest */ = {
 			isa = PBXGroup;
 			children = (
-				5BD4BE7F1C71951A005DDA23 /* AppDelegate.swift */,
-				5BD4BE811C71951A005DDA23 /* ViewController.swift */,
+				5BD4BED01C719998005DDA23 /* AFNet */,
+				5BD4BEC21C719865005DDA23 /* Datas */,
+				5BD4BEC11C719842005DDA23 /* APP */,
+				5BD4BEC01C71980D005DDA23 /* Controllers */,
 				5BD4BE831C71951A005DDA23 /* Main.storyboard */,
 				5BD4BE861C71951A005DDA23 /* Assets.xcassets */,
 				5BD4BE881C71951A005DDA23 /* LaunchScreen.storyboard */,
 				5BD4BE8B1C71951A005DDA23 /* Info.plist */,
+				5BD4BECC1C719982005DDA23 /* MyAppTest-Bridging-Header.h */,
 			);
 			path = MyAppTest;
 			sourceTree = "<group>";
@@ -123,6 +155,53 @@
 				5BD4BEA11C71951A005DDA23 /* Info.plist */,
 			);
 			path = MyAppTestUITests;
+			sourceTree = "<group>";
+		};
+		5BD4BEC01C71980D005DDA23 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4BE811C71951A005DDA23 /* ViewController.swift */,
+				5BE2CA9B1C71E9F0007D9841 /* MySecondCookcateViewController.swift */,
+				5BE2CA9D1C71EE91007D9841 /* MyCookBookListViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5BD4BEC11C719842005DDA23 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4BE7F1C71951A005DDA23 /* AppDelegate.swift */,
+			);
+			name = APP;
+			sourceTree = "<group>";
+		};
+		5BD4BEC21C719865005DDA23 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				5BE2CA921C71AB94007D9841 /* MyHTTPManager.swift */,
+				5BE2CA941C71DAA9007D9841 /* MyCookcate.swift */,
+				5BE2CA9F1C71F1A4007D9841 /* MyCookBook.swift */,
+			);
+			name = Datas;
+			sourceTree = "<group>";
+		};
+		5BD4BED01C719998005DDA23 /* AFNet */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4BED11C7199B4005DDA23 /* AFHTTPSessionManager.h */,
+				5BD4BED21C7199B4005DDA23 /* AFHTTPSessionManager.m */,
+				5BD4BED31C7199B4005DDA23 /* AFNetworkReachabilityManager.h */,
+				5BD4BED41C7199B4005DDA23 /* AFNetworkReachabilityManager.m */,
+				5BD4BED51C7199B4005DDA23 /* AFSecurityPolicy.h */,
+				5BD4BED61C7199B4005DDA23 /* AFSecurityPolicy.m */,
+				5BD4BED71C7199B4005DDA23 /* AFURLRequestSerialization.h */,
+				5BD4BED81C7199B4005DDA23 /* AFURLRequestSerialization.m */,
+				5BD4BED91C7199B4005DDA23 /* AFURLResponseSerialization.h */,
+				5BD4BEDA1C7199B4005DDA23 /* AFURLResponseSerialization.m */,
+				5BD4BEDB1C7199B4005DDA23 /* AFURLSessionManager.h */,
+				5BD4BEDC1C7199B4005DDA23 /* AFURLSessionManager.m */,
+			);
+			name = AFNet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +266,7 @@
 		5BD4BE741C71951A005DDA23 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = My;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = yzy;
@@ -256,7 +336,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE2CA951C71DAA9007D9841 /* MyCookcate.swift in Sources */,
+				5BD4BEDD1C7199B4005DDA23 /* AFHTTPSessionManager.m in Sources */,
+				5BE2CA9E1C71EE91007D9841 /* MyCookBookListViewController.swift in Sources */,
+				5BD4BEE21C7199B4005DDA23 /* AFURLSessionManager.m in Sources */,
+				5BD4BEDF1C7199B4005DDA23 /* AFSecurityPolicy.m in Sources */,
+				5BE2CAA01C71F1A4007D9841 /* MyCookBook.swift in Sources */,
 				5BD4BE821C71951A005DDA23 /* ViewController.swift in Sources */,
+				5BD4BEE01C7199B4005DDA23 /* AFURLRequestSerialization.m in Sources */,
+				5BE2CA9C1C71E9F0007D9841 /* MySecondCookcateViewController.swift in Sources */,
+				5BD4BEDE1C7199B4005DDA23 /* AFNetworkReachabilityManager.m in Sources */,
+				5BE2CA931C71AB94007D9841 /* MyHTTPManager.swift in Sources */,
+				5BD4BEE11C7199B4005DDA23 /* AFURLResponseSerialization.m in Sources */,
 				5BD4BE801C71951A005DDA23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +490,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyAppTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yzy.MyAppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyAppTest/MyAppTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +504,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyAppTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yzy.MyAppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyAppTest/MyAppTest-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +580,7 @@
 				5BD4BEA61C71951A005DDA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BD4BEA71C71951A005DDA23 /* Build configuration list for PBXNativeTarget "MyAppTestTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +589,7 @@
 				5BD4BEA91C71951A005DDA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BD4BEAA1C71951A005DDA23 /* Build configuration list for PBXNativeTarget "MyAppTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +598,7 @@
 				5BD4BEAC1C71951A005DDA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
