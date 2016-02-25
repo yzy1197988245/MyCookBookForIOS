@@ -80,18 +80,12 @@ class MyCookBookListViewController: UITableViewController, MyHTTPManagerDelegate
     }
     
     override func scrollViewDidEndDragging(scrollView: UIScrollView, willDecelerate decelerate: Bool) {
-//        print(scrollView.contentOffset.y)
-//        print(scrollView.contentSize.height)
-//        print(scrollView.frame.size.height)
         let offsety = scrollView.contentOffset.y
         let contentSizeY = scrollView.contentSize.height
         let frameY = scrollView.frame.size.height
-        
         let x = offsety + frameY - contentSizeY
-        
         if x > 50 {
             self.getDatasFromService()
         }
-        
     }
 }
