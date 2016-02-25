@@ -37,6 +37,7 @@
 		5BE2CA9E1C71EE91007D9841 /* MyCookBookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2CA9D1C71EE91007D9841 /* MyCookBookListViewController.swift */; };
 		5BE2CAA01C71F1A4007D9841 /* MyCookBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2CA9F1C71F1A4007D9841 /* MyCookBook.swift */; };
 		5BE2CAA21C71FD04007D9841 /* MyCookBookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2CAA11C71FD04007D9841 /* MyCookBookDetailViewController.swift */; };
+		5BF4898E1C7F3EF5002A18F5 /* MyCookBookListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4898D1C7F3EF5002A18F5 /* MyCookBookListItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,7 @@
 		5BE2CA9D1C71EE91007D9841 /* MyCookBookListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCookBookListViewController.swift; sourceTree = "<group>"; };
 		5BE2CA9F1C71F1A4007D9841 /* MyCookBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCookBook.swift; sourceTree = "<group>"; };
 		5BE2CAA11C71FD04007D9841 /* MyCookBookDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCookBookDetailViewController.swift; sourceTree = "<group>"; };
+		5BF4898D1C7F3EF5002A18F5 /* MyCookBookListItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCookBookListItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,12 +198,13 @@
 		5BD4BEC01C71980D005DDA23 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5BD4BE811C71951A005DDA23 /* ViewController.swift */,
-				5BE2CA9B1C71E9F0007D9841 /* MySecondCookcateViewController.swift */,
-				5BE2CA9D1C71EE91007D9841 /* MyCookBookListViewController.swift */,
 				5BE2CAA11C71FD04007D9841 /* MyCookBookDetailViewController.swift */,
-				5BC113F51C72D51B000555E0 /* MyFoodListViewController.swift */,
+				5BF4898D1C7F3EF5002A18F5 /* MyCookBookListItemCell.swift */,
+				5BE2CA9D1C71EE91007D9841 /* MyCookBookListViewController.swift */,
 				5BC113F71C72D971000555E0 /* MyFoodDetailViewController.swift */,
+				5BC113F51C72D51B000555E0 /* MyFoodListViewController.swift */,
+				5BE2CA9B1C71E9F0007D9841 /* MySecondCookcateViewController.swift */,
+				5BD4BE811C71951A005DDA23 /* ViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				5BDA1E071C72208B00C37AAB /* AFImageDownloader.m in Sources */,
 				5BDA1E0A1C72208B00C37AAB /* UIButton+AFNetworking.m in Sources */,
 				5BDA1E0B1C72208B00C37AAB /* UIImageView+AFNetworking.m in Sources */,
+				5BF4898E1C7F3EF5002A18F5 /* MyCookBookListItemCell.swift in Sources */,
 				5BD4BE821C71951A005DDA23 /* ViewController.swift in Sources */,
 				5BD4BEE01C7199B4005DDA23 /* AFURLRequestSerialization.m in Sources */,
 				5BE2CAA21C71FD04007D9841 /* MyCookBookDetailViewController.swift in Sources */,

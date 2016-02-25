@@ -68,8 +68,8 @@ class MyCookBookListViewController: UITableViewController, MyHTTPManagerDelegate
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
-        cell.textLabel?.text = self.datas[indexPath.row].name
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! MyCookBookListItemCell
+        cell.setCookBook(self.datas[indexPath.row])
         return cell
     }
     
