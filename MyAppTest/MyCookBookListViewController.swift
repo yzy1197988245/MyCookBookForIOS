@@ -31,7 +31,7 @@ class MyCookBookListViewController: UITableViewController, MyHTTPManagerDelegate
     }
     
     func onMyHTTPManagerGETDoneWithResult(manager: AnyObject?, result: AnyObject?, task: NSURLSessionDataTask?) {
-        
+//        print(result)
         if result != nil {
             let resultRootDictionary = result as! Dictionary<String, AnyObject>
             let status = resultRootDictionary["status"] as! Int
@@ -71,5 +71,27 @@ class MyCookBookListViewController: UITableViewController, MyHTTPManagerDelegate
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
         cell.textLabel?.text = self.datas[indexPath.row].name
         return cell
+    }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let controller = self.storyboard?.instantiateViewControllerWithIdentifier("MyCookBookDetailViewController") as! MyCookBookDetailViewController
+        controller.cookbook = self.datas[indexPath.row]
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
+    
+    override func scrollViewDidEndDragging(scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+//        print(scrollView.contentOffset.y)
+//        print(scrollView.contentSize.height)
+//        print(scrollView.frame.size.height)
+        let offsety = scrollView.contentOffset.y
+        let contentSizeY = scrollView.contentSize.height
+        let frameY = scrollView.frame.size.height
+        
+        let x = offsety + frameY - contentSizeY
+        
+        if x > 50 {
+            self.getDatasFromService()
+        }
+        
     }
 }

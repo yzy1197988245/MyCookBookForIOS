@@ -3,3 +3,4 @@
 //
 
 #import "AFHTTPSessionManager.h"
+#import "UIImageView+AFNetworking.h"

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BC113F61C72D51B000555E0 /* MyFoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC113F51C72D51B000555E0 /* MyFoodListViewController.swift */; };
+		5BC113F81C72D971000555E0 /* MyFoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC113F71C72D971000555E0 /* MyFoodDetailViewController.swift */; };
 		5BD4BE801C71951A005DDA23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4BE7F1C71951A005DDA23 /* AppDelegate.swift */; };
 		5BD4BE821C71951A005DDA23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4BE811C71951A005DDA23 /* ViewController.swift */; };
 		5BD4BE851C71951A005DDA23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4BE831C71951A005DDA23 /* Main.storyboard */; };
@@ -20,11 +22,21 @@
 		5BD4BEE01C7199B4005DDA23 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4BED81C7199B4005DDA23 /* AFURLRequestSerialization.m */; };
 		5BD4BEE11C7199B4005DDA23 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4BEDA1C7199B4005DDA23 /* AFURLResponseSerialization.m */; };
 		5BD4BEE21C7199B4005DDA23 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4BEDC1C7199B4005DDA23 /* AFURLSessionManager.m */; };
+		5BDA1E061C72208B00C37AAB /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA1DF31C72208B00C37AAB /* AFAutoPurgingImageCache.m */; };
+		5BDA1E071C72208B00C37AAB /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA1DF51C72208B00C37AAB /* AFImageDownloader.m */; };
+		5BDA1E081C72208B00C37AAB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA1DF71C72208B00C37AAB /* AFNetworkActivityIndicatorManager.m */; };
+		5BDA1E091C72208B00C37AAB /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA1DF91C72208B00C37AAB /* UIActivityIndicatorView+AFNetworking.m */; };
+		5BDA1E0A1C72208B00C37AAB /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA1DFB1C72208B00C37AAB /* UIButton+AFNetworking.m */; };
+		5BDA1E0B1C72208B00C37AAB /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA1DFE1C72208B00C37AAB /* UIImageView+AFNetworking.m */; };
+		5BDA1E0C1C72208B00C37AAB /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA1E011C72208B00C37AAB /* UIProgressView+AFNetworking.m */; };
+		5BDA1E0D1C72208B00C37AAB /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA1E031C72208B00C37AAB /* UIRefreshControl+AFNetworking.m */; };
+		5BDA1E0E1C72208B00C37AAB /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA1E051C72208B00C37AAB /* UIWebView+AFNetworking.m */; };
 		5BE2CA931C71AB94007D9841 /* MyHTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2CA921C71AB94007D9841 /* MyHTTPManager.swift */; };
 		5BE2CA951C71DAA9007D9841 /* MyCookcate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2CA941C71DAA9007D9841 /* MyCookcate.swift */; };
 		5BE2CA9C1C71E9F0007D9841 /* MySecondCookcateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2CA9B1C71E9F0007D9841 /* MySecondCookcateViewController.swift */; };
 		5BE2CA9E1C71EE91007D9841 /* MyCookBookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2CA9D1C71EE91007D9841 /* MyCookBookListViewController.swift */; };
 		5BE2CAA01C71F1A4007D9841 /* MyCookBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2CA9F1C71F1A4007D9841 /* MyCookBook.swift */; };
+		5BE2CAA21C71FD04007D9841 /* MyCookBookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2CAA11C71FD04007D9841 /* MyCookBookDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5BC113F51C72D51B000555E0 /* MyFoodListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFoodListViewController.swift; sourceTree = "<group>"; };
+		5BC113F71C72D971000555E0 /* MyFoodDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFoodDetailViewController.swift; sourceTree = "<group>"; };
 		5BD4BE7C1C71951A005DDA23 /* MyAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD4BE7F1C71951A005DDA23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BD4BE811C71951A005DDA23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,11 +85,32 @@
 		5BD4BEDA1C7199B4005DDA23 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		5BD4BEDB1C7199B4005DDA23 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		5BD4BEDC1C7199B4005DDA23 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		5BDA1DF21C72208B00C37AAB /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
+		5BDA1DF31C72208B00C37AAB /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
+		5BDA1DF41C72208B00C37AAB /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
+		5BDA1DF51C72208B00C37AAB /* AFImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
+		5BDA1DF61C72208B00C37AAB /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		5BDA1DF71C72208B00C37AAB /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		5BDA1DF81C72208B00C37AAB /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		5BDA1DF91C72208B00C37AAB /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		5BDA1DFA1C72208B00C37AAB /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		5BDA1DFB1C72208B00C37AAB /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		5BDA1DFC1C72208B00C37AAB /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		5BDA1DFD1C72208B00C37AAB /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		5BDA1DFE1C72208B00C37AAB /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		5BDA1DFF1C72208B00C37AAB /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		5BDA1E001C72208B00C37AAB /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		5BDA1E011C72208B00C37AAB /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		5BDA1E021C72208B00C37AAB /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		5BDA1E031C72208B00C37AAB /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		5BDA1E041C72208B00C37AAB /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		5BDA1E051C72208B00C37AAB /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		5BE2CA921C71AB94007D9841 /* MyHTTPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHTTPManager.swift; sourceTree = "<group>"; };
 		5BE2CA941C71DAA9007D9841 /* MyCookcate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCookcate.swift; sourceTree = "<group>"; };
 		5BE2CA9B1C71E9F0007D9841 /* MySecondCookcateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySecondCookcateViewController.swift; sourceTree = "<group>"; };
 		5BE2CA9D1C71EE91007D9841 /* MyCookBookListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCookBookListViewController.swift; sourceTree = "<group>"; };
 		5BE2CA9F1C71F1A4007D9841 /* MyCookBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCookBook.swift; sourceTree = "<group>"; };
+		5BE2CAA11C71FD04007D9841 /* MyCookBookDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCookBookDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +161,7 @@
 		5BD4BE7E1C71951A005DDA23 /* MyAppTest */ = {
 			isa = PBXGroup;
 			children = (
+				5BE2CAA31C721B18007D9841 /* AFNet+UIKit */,
 				5BD4BED01C719998005DDA23 /* AFNet */,
 				5BD4BEC21C719865005DDA23 /* Datas */,
 				5BD4BEC11C719842005DDA23 /* APP */,
@@ -163,6 +199,9 @@
 				5BD4BE811C71951A005DDA23 /* ViewController.swift */,
 				5BE2CA9B1C71E9F0007D9841 /* MySecondCookcateViewController.swift */,
 				5BE2CA9D1C71EE91007D9841 /* MyCookBookListViewController.swift */,
+				5BE2CAA11C71FD04007D9841 /* MyCookBookDetailViewController.swift */,
+				5BC113F51C72D51B000555E0 /* MyFoodListViewController.swift */,
+				5BC113F71C72D971000555E0 /* MyFoodDetailViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -202,6 +241,33 @@
 				5BD4BEDC1C7199B4005DDA23 /* AFURLSessionManager.m */,
 			);
 			name = AFNet;
+			sourceTree = "<group>";
+		};
+		5BE2CAA31C721B18007D9841 /* AFNet+UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5BDA1DF21C72208B00C37AAB /* AFAutoPurgingImageCache.h */,
+				5BDA1DF31C72208B00C37AAB /* AFAutoPurgingImageCache.m */,
+				5BDA1DF41C72208B00C37AAB /* AFImageDownloader.h */,
+				5BDA1DF51C72208B00C37AAB /* AFImageDownloader.m */,
+				5BDA1DF61C72208B00C37AAB /* AFNetworkActivityIndicatorManager.h */,
+				5BDA1DF71C72208B00C37AAB /* AFNetworkActivityIndicatorManager.m */,
+				5BDA1DF81C72208B00C37AAB /* UIActivityIndicatorView+AFNetworking.h */,
+				5BDA1DF91C72208B00C37AAB /* UIActivityIndicatorView+AFNetworking.m */,
+				5BDA1DFA1C72208B00C37AAB /* UIButton+AFNetworking.h */,
+				5BDA1DFB1C72208B00C37AAB /* UIButton+AFNetworking.m */,
+				5BDA1DFC1C72208B00C37AAB /* UIImage+AFNetworking.h */,
+				5BDA1DFD1C72208B00C37AAB /* UIImageView+AFNetworking.h */,
+				5BDA1DFE1C72208B00C37AAB /* UIImageView+AFNetworking.m */,
+				5BDA1DFF1C72208B00C37AAB /* UIKit+AFNetworking.h */,
+				5BDA1E001C72208B00C37AAB /* UIProgressView+AFNetworking.h */,
+				5BDA1E011C72208B00C37AAB /* UIProgressView+AFNetworking.m */,
+				5BDA1E021C72208B00C37AAB /* UIRefreshControl+AFNetworking.h */,
+				5BDA1E031C72208B00C37AAB /* UIRefreshControl+AFNetworking.m */,
+				5BDA1E041C72208B00C37AAB /* UIWebView+AFNetworking.h */,
+				5BDA1E051C72208B00C37AAB /* UIWebView+AFNetworking.m */,
+			);
+			name = "AFNet+UIKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +339,7 @@
 				TargetAttributes = {
 					5BD4BE7B1C71951A005DDA23 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7B5RHE2H8A;
 					};
 					5BD4BE8F1C71951A005DDA23 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -336,16 +403,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BDA1E061C72208B00C37AAB /* AFAutoPurgingImageCache.m in Sources */,
 				5BE2CA951C71DAA9007D9841 /* MyCookcate.swift in Sources */,
 				5BD4BEDD1C7199B4005DDA23 /* AFHTTPSessionManager.m in Sources */,
 				5BE2CA9E1C71EE91007D9841 /* MyCookBookListViewController.swift in Sources */,
 				5BD4BEE21C7199B4005DDA23 /* AFURLSessionManager.m in Sources */,
+				5BC113F81C72D971000555E0 /* MyFoodDetailViewController.swift in Sources */,
 				5BD4BEDF1C7199B4005DDA23 /* AFSecurityPolicy.m in Sources */,
+				5BDA1E091C72208B00C37AAB /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				5BDA1E0C1C72208B00C37AAB /* UIProgressView+AFNetworking.m in Sources */,
 				5BE2CAA01C71F1A4007D9841 /* MyCookBook.swift in Sources */,
+				5BDA1E081C72208B00C37AAB /* AFNetworkActivityIndicatorManager.m in Sources */,
+				5BDA1E071C72208B00C37AAB /* AFImageDownloader.m in Sources */,
+				5BDA1E0A1C72208B00C37AAB /* UIButton+AFNetworking.m in Sources */,
+				5BDA1E0B1C72208B00C37AAB /* UIImageView+AFNetworking.m in Sources */,
 				5BD4BE821C71951A005DDA23 /* ViewController.swift in Sources */,
 				5BD4BEE01C7199B4005DDA23 /* AFURLRequestSerialization.m in Sources */,
+				5BE2CAA21C71FD04007D9841 /* MyCookBookDetailViewController.swift in Sources */,
+				5BDA1E0E1C72208B00C37AAB /* UIWebView+AFNetworking.m in Sources */,
 				5BE2CA9C1C71E9F0007D9841 /* MySecondCookcateViewController.swift in Sources */,
+				5BC113F61C72D51B000555E0 /* MyFoodListViewController.swift in Sources */,
 				5BD4BEDE1C7199B4005DDA23 /* AFNetworkReachabilityManager.m in Sources */,
+				5BDA1E0D1C72208B00C37AAB /* UIRefreshControl+AFNetworking.m in Sources */,
 				5BE2CA931C71AB94007D9841 /* MyHTTPManager.swift in Sources */,
 				5BD4BEE11C7199B4005DDA23 /* AFURLResponseSerialization.m in Sources */,
 				5BD4BE801C71951A005DDA23 /* AppDelegate.swift in Sources */,
@@ -491,12 +570,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyAppTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yzy.MyAppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MyAppTest/MyAppTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -505,11 +586,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyAppTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yzy.MyAppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MyAppTest/MyAppTest-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

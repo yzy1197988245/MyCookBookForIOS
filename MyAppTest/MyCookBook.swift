@@ -32,5 +32,6 @@ class MyCookBook: NSObject {
         self.keywords = datas["keywords"] as? String
         self.name = datas["name"] as? String
         self.rcount = datas["rcount"] as? Int
+        self.message = datas["message"] as? String
     }
 }
